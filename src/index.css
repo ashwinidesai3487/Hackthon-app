@@ -1,0 +1,278 @@
+body {
+  margin: 0;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; 
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; 
+  background: radial-gradient(62.13% 87.41% at 52.5% 54.39%, #7C0302 0%, #1B0000 100%);
+  /* font-family: Amazon Ember Display !important; */
+  font-size: 15px;
+  font-weight: 400;
+  background-attachment: fixed;
+  /* background-attachment: fixed; */
+  line-height: 17.96px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+  border-bottom: 1px solid #FA6F00;
+  color:#FA6F00 !important;
+}
+.nav-link
+{
+  font-size: 15px !important;
+  font-weight: 600 !important;
+}
+
+
+/*new CSS */
+
+
+.div_AI
+{
+  /* background: linear-gradient(180deg, rgba(250, 111, 0, 0.5) 0%, rgba(10, 6, 18, 0.5) 75.74%); */
+  /* border: 2px solid #FA6F00; */
+background-image: url(../src//Assets/AI.png);
+  width: 216px;
+height: 202px;
+top: 314px;
+left: 53px;
+gap: 0px;
+border-radius: 15px 0px 0px 0px;
+/* border: 2px 0px 0px 0px; */
+
+
+
+}
+
+.div_Innovative
+{
+  /* background: linear-gradient(180deg, rgba(216, 6, 4, 0.5) 0%, rgba(10, 6, 18, 0.5) 58.91%);
+  border: 2px solid #D80604; */
+  background-image: url(../src//Assets/Innovate.png);
+  width: 216px;
+height: 202px;
+top: 314px;
+left: 319px;
+gap: 0px;
+border-radius: 15px 0px 0px 0px;
+/* border: 2px 0px 0px 0px; */
+opacity: 0px;
+
+
+}
+
+
+
+.subhead
+{
+  
+font-size: 19.63px;
+font-weight: 700;
+margin-left:6px;
+margin-top: 10px;
+margin-bottom: 5px;
+line-height: 24.69px;
+}
+
+
+.desc_inner
+{
+  font-size: 15px;
+  line-height: 17px;
+}
+
+
+.cust_Container
+{
+  border: 2px solid #FA6F00;
+
+/* border-image-source: linear-gradient(180deg, #FA6F00 0%, #D80604 100%); */
+color:#000000;
+
+
+width: 1018px;
+height: auto;
+top: 37px;
+left: 49px;
+gap: 0px;
+
+border-radius: 15px;
+
+}
+
+
+.cust_reward_Container
+{
+  border: 2px solid #FA6F00;
+  width: 1015px;
+height: auto;
+top: 2834px;
+left: 211px;
+gap: 0px;
+border-radius: 15px;
+
+
+
+}
+
+.heading
+{
+
+font-size: 60px;
+font-weight: 300;
+line-height: 71.82px;
+
+
+}
+
+.register_image {
+  display: block; /* Ensures proper alignment in block layout */
+  margin-left: 0; /* Aligns the image to the left */
+  margin-right: auto; /* Optional: Removes any extra space to the right */
+  margin-top: -50px;
+}
+
+
+.register_header
+{
+ 
+font-size: 60px;
+font-weight: 300;
+line-height: 71.82px;
+color:#ffffff;
+
+}
+
+.register_content
+{
+ 
+font-size: 11.5px;
+font-weight: 400;
+line-height: 13.77px;
+color:#ffffff;
+
+}
+
+
+
+/* Custom Tabs Styles */
+.custom-tabs .nav-link {
+  border: none !important; /* No border by default */
+  background-color: transparent !important; /* No background color */
+  color: #ffffff !important; /* Default text color */
+  padding: 10px 20px !important; /* Padding for the tab links */
+  font-weight: normal !important; 
+  border-bottom: none !important;/* Optional: to adjust font weight */
+}
+
+.custom-tabs .nav-link.active {
+  background-color: transparent !important; /* Keep the background transparent on active */
+  color: #FA6F00 !important;
+  border-bottom: 1px solid #FA6F00; /* Active color */
+  font-weight: bold !important; /* Optional: to make the active tab text bold */
+}
+
+.custom-tabs .nav-item {
+  margin-right: 10px !important; /* Optional: Adjust space between tabs */
+}
+
+.heading {
+  display: inline-block;
+  margin-right: 20px; /* Space between heading and tabs */
+}
+
+.custom_body_Tab1
+{
+  background-color:#8E0001;
+  color:#ffffff !important;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+
+.custom_body_Tab2
+{
+  background-color:#D14600;
+  color:#ffffff !important;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+
+/* Ensure more specificity to avoid overriding */
+#panel-planners-tabs .tab-pane .custom_body_Tab1 {
+  background-color: #8E0001 !important; /* Deep red background for the Jury tab */
+}
+
+#panel-planners-tabs .tab-pane .custom_body_Tab2 {
+  background-color: #D14600 !important; /* Orange background for the Organizing Committee tab */
+}
+
+
+
+/* Default background color for first and third cards */
+#panel-planners-tabs .tab-pane .custom_body_Tab1 {
+  background-color: #8E0001 !important; 
+  color:#ffffff !important;/* Red background for first and third cards */
+}
+
+/* Apply different background to second and fourth cards */
+#panel-planners-tabs .tab-pane .custom_body_Tab2:nth-child(2),
+#panel-planners-tabs .tab-pane .custom_body_Tab2:nth-child(4) {
+  background-color: #D14600 !important; 
+  color:#ffffff !important;/* Orange background for second and fourth cards */
+}
+
+
+.cust_card
+{
+  border:none !important;
+  border-radius: 8px !important;
+}
+
+.end_div
+{
+  width: 884px;
+height: 50px;
+left: -9px !important;
+gap: 0px;
+border-radius: 15px;
+
+position: absolute;
+
+
+margin-bottom: 25px;
+background-color:  #D14600;
+;
+}
+
+@media (max-width: 768px) {
+  .section-spacing {
+    margin-top: 20px !important; /* Adjust this value as needed to add space between sections */
+  }
+}
+
+
+
+
+
+.reward-text {
+  font-size: 24px;
+  margin: 0;
+}
+
+@media (max-width: 767px) {
+  .reward-text {
+    font-size: 10px; /* Smaller font size for mobile */
+  }
+}
+
