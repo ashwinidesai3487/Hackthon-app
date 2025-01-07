@@ -242,7 +242,7 @@ color:#ffffff;
 .end_div
 {
   width: 884px;
-height: 50px;
+height: auto;
 left: -9px !important;
 gap: 0px;
 border-radius: 15px;
