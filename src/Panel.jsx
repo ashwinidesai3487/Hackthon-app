@@ -125,7 +125,7 @@ const Panel = () => {
     </Col>
 
     <Col xs={12} md={6}>
-      <p>Reach out to the organizing committee <br />members if you have any questions.</p>
+      <p className="ms-3">Reach out to the organizing committee <br />members if you have any questions.</p>
     </Col>
   </Row>
 </div>
