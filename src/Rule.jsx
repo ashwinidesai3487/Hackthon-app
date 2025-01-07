@@ -58,7 +58,7 @@ const Rule = () => {
                 <img src={Dos} width="85px" />
                 <ul style={{ listStyle: "none", paddingLeft: "0" ,marginTop:"5px"}}>
                   <li>
-                    <h4 style={{ fontSize: "20px", fontWeight: "700" }}>Collaborate Like a Pro</h4>
+                    <h4 style={{ fontSize: "20px", fontWeight: "700" }} className="mt-3">Collaborate Like a Pro</h4>
                     <span style={{ fontSize: "11px", fontWeight: "400" }}>
                       Teamwork wins the day! Share ideas, leverage strengths, and
                       embrace diverse perspectives to craft something
@@ -100,7 +100,7 @@ const Rule = () => {
               <img src={Donts} width="85px" />
                 <ul style={{ listStyle: "none", paddingLeft: "0" }}>
                   <li>
-                    <h4 style={{ fontSize: "20px", fontWeight: "700",marginTop:"5px" }}>Go Solo</h4>
+                    <h4 style={{ fontSize: "20px", fontWeight: "700",marginTop:"5px" }} className="mt-3" >Go Solo</h4>
                     <span style={{ fontSize: "11px", fontWeight: "400" }}>
                       This is a team sport. Form a squad of up to 5, including an
                       engineer and a Product professional, to unlock your full
