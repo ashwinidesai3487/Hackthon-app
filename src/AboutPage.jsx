@@ -7,7 +7,7 @@ import Time from '../src/Assets/time.png';
 const AboutPage = () => {
   return (
     <section id="about">
-    <div className="text-light py-5" style={{ backgroundSize: 'cover', backgroundPosition: 'center' }}>
+    <div className="text-light" style={{ backgroundSize: 'cover', backgroundPosition: 'center' }}>
       <Container>
         <Row className="align-items-center">
           {/* Left side content (image + text) */}
