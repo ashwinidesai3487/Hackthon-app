@@ -11,43 +11,45 @@ const AboutHackton = () => {
     <div className="text-light py-3" style={{ backgroundSize: 'cover', backgroundPosition: 'center' }}>
     <Container>
       <Row className="align-items-center">
-        {/* Left side content (image + text) */}
-        <Col xs={12} md={6} style={{ padding: 15 }} className="text-center text-md-start">
-          <div
-            style={{
-              display: 'block',
-              marginBottom: '20px',
-              textAlign: 'left',
-            }}
-          >
-            <p
-              style={{
-                fontSize: '60px',
-                fontWeight: '300',
-                margin: 0,
-              }}
-            >
-              About <br />
-              the Hackathon
-            </p>
-          </div>
-        </Col>
-  
-        {/* Right side content */}
-        <Col xs={12} md={3} style={{ padding: 15 }} className="text-center text-md-start">
-          <span>
-            Gear up for an exhilarating season of innovation and impact! The Junglee Games Hackathon: Season 3 is here, calling on brilliant minds to redefine gaming and technology.
-            Innovate, collaborate, and challenge the norm: your idea could shape the future of gaming, enhance business efficiency, or unlock the power of AI.
-          </span>
-        </Col>
-  
-        <Col xs={12} md={3} style={{ padding: 15 }} className="text-center text-md-start">
-          <span>
-            Gaming, enhance business efficiency, or unlock the power of AI. Whether you’re coding, ideating, or designing, this is your stage to shine and make a real difference.
-            Let’s build the extraordinary. Are you ready to lead the change?
-          </span>
-        </Col>
-      </Row>
+  {/* Left side content (image + text) */}
+  <Col xs={12} md={6} style={{ padding: 15 }} className="text-center text-md-start">
+    <div
+      style={{
+        display: 'block',
+        marginBottom: '20px',
+        textAlign: 'left',
+      }}
+    >
+      <p
+        style={{
+          fontSize: '60px',
+          fontWeight: '300',
+          margin: 0,
+        }}
+      >
+        About <br />
+        the Hackathon
+      </p>
+    </div>
+  </Col>
+
+  {/* Right side content */}
+  <Col xs={12} md={6} style={{ padding: 15 }} className="d-flex flex-column flex-md-row justify-content-between">
+    <div style={{ flex: 1, marginRight: '15px', textAlign: 'left' }}>
+      <span className='register_content'>
+        Gear up for an exhilarating season of innovation and impact! The Junglee Games Hackathon: Season 3 is here, calling on brilliant minds to redefine gaming and technology.
+        Innovate, collaborate, and challenge the norm: your idea could shape the future of gaming, enhance business efficiency, or unlock the power of AI.
+      </span>
+    </div>
+    <div style={{ flex: 1, textAlign: 'left' }}>
+      <span className='register_content'>
+        Gaming, enhance business efficiency, or unlock the power of AI. Whether you’re coding, ideating, or designing, this is your stage to shine and make a real difference.
+        Let’s build the extraordinary. Are you ready to lead the change?
+      </span>
+    </div>
+  </Col>
+</Row>
+      
   
       <Row>
         <Col xs={12} md={12} style={{ padding: 15 }}>
