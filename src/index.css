@@ -89,11 +89,7 @@ border-radius: 15px 0px 0px 0px;
 
 
 
-/* Ensure all sections fit within the viewport */
-section, div, img {
-  max-width: 100%;
-  overflow: hidden; /* Hide any overflow content */
-}
+
 
 
 .subhead
