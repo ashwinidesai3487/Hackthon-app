@@ -22,7 +22,7 @@ const WhoRegister = () => {
           </Col>
 
           {/* Content */}
-          <Col xs={12} md={3} className='mt-4'>
+          <Col xs={12} md={3} className='mt-4 mb-3'>
             <span className="register_content">
             The JG Hackathon is open to every Junglee: across teams, locations, and expertise! Whether you're from Tech, Design, Marketing, or Operations, this is your stage to innovate and create.<br/><br/>
 
