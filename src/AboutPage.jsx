@@ -73,7 +73,7 @@ const AboutPage = () => {
       color="white" // Adjust the height to match the aspect ratio
     />
   </span>
-  From 2:30 PM on Friday, 6th December to 3 PM on 7th December.</span>
+  From 2:30 PM on Friday, 6th December to 3 PM on 7th December.
 </p>
 
 
